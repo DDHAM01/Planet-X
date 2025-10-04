@@ -1,0 +1,63 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+sysinfo.txt
+
+# Exclude cache and compiled data
+*.pidb
+*.booproj
+*.svd
+*.user
+*.userprefs
+*.unityproj
+*.sln
+*.csproj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+
+# Exclude Unity packages
+*.unitypackage
+
+# Exclude addressables build cache
+ServerData/
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+Thumbs.db
+
+# ============== #
+# IDE generated  #
+# ============== #
+.idea/
+.vscode/
+
+# ================== #
+# Mobile build stuff #
+# ================== #
+*.apk
+*.aab
+*.ipa
+*.app
+*.dSYM
+*.dSYM.zip
+
+# Gradle/Xcode
+.gradle/
+.gradle-cache/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
