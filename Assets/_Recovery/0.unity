@@ -3050,7 +3050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df51b1f5aa38ff4fbff12384a068d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimulationManager
-  secondsPerDay: 0.2
+  secondsPerDay: 0.5
   dayCount: 0
   running: 1
   speed: 1
