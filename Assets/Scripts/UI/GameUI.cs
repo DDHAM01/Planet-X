@@ -33,9 +33,13 @@ public class GameUI : MonoBehaviour
     
         // Hook this to the Water slider OnValueChanged(float)
     public void OnWaterChanged(float v){
-        foreach (var ps in FindObjectsOfType<PlotState>()) ps.irrigation = v;
-        RefreshStats();
-    }
+    foreach (var ps in FindObjectsOfType<PlotState>()) ps.irrigation = v;
+    RefreshStats();
+
+    // NEW: tell Bud-E immediately when water changes (crop-aware guidance)
+    BudE.Instance?.NotifyWaterLevel(v, SelectedCrop);
+}
+
     
     public void RefreshStats()
     {
