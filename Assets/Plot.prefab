@@ -104,10 +104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33589bd37e7722e4daaab1ec90d828ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  emptySprite: {fileID: -2618518995355402670, guid: 62c71fb487909ec48ab41474e07c445d, type: 3}
-  sproutSprite: {fileID: 6168083732550661486, guid: d1273158dc72d2541895b9106efddd78, type: 3}
-  grownSprite: {fileID: 8903766432266672828, guid: 569333b03adc1864fa1ae6b0842113ac, type: 3}
-  deadSprite: {fileID: 2829232388215122354, guid: 0cbd30a7591220442b10e8ad589f5568, type: 3}
+  emptySprite: {fileID: -4178046375966092550, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
+  sproutSprite: {fileID: -2137975677, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
+  grownSprite: {fileID: 8982099749623107299, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
+  deadSprite: {fileID: -10500422234371694, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
 --- !u!61 &-9057165819182235019
 BoxCollider2D:
   m_ObjectHideFlags: 0
