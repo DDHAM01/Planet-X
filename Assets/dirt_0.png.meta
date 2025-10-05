@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d1273158dc72d2541895b9106efddd78
+guid: 62c71fb487909ec48ab41474e07c445d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6168083732550661486
-    second: cow_0
+      213: -2618518995355402670
+    second: dirt_0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cow_0
+      name: dirt_0_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1200
-        height: 1200
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e653c8f897f699550800000000000000
-      internalID: 6168083732550661486
+      spriteID: 25e7a34e8d629abd0800000000000000
+      internalID: -2618518995355402670
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cow_0: 6168083732550661486
+      dirt_0_0: -2618518995355402670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
