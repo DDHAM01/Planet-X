@@ -7,10 +7,16 @@ public class GameUI : MonoBehaviour
     public static GameUI Instance { get; private set; }
     public static CropDef SelectedCrop { get; private set; }
 
+    public GameObject toolsDrawer;   // assign in Inspector
+    public Toggle pesticideToggle;   // optional (only if you add it to ToolsDrawer)
+
+
     [Header("Phase 2 UI")]
     public Slider waterSlider; // 0..1
     public TMP_Text statsText;
     public SimulationManager sim; // drag in Inspector
+
+    public void ToggleTools() { if (toolsDrawer) toolsDrawer.SetActive(!toolsDrawer.activeSelf); }
 
     void Awake()
     {

@@ -20,7 +20,7 @@ MonoBehaviour:
   matureSprite: {fileID: -2214249495721929474, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
   deadSprite: {fileID: -1965056650889063979, guid: 5e0cab679cff16948a28d5971daa05cc, type: 3}
   baseWaterNeed: 0.45
-  daysToMature: 18
+  daysToMature: 12
   growthVsMoisture:
     serializedVersion: 2
     m_Curve:

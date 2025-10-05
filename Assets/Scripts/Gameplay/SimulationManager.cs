@@ -62,6 +62,9 @@ float acc;
             }
         }
     dayCount++;
+
+    BudE.Instance?.OnDailyUpdate(plots);
+
     GameUI.Instance?.RefreshStats();
     }
     public void ResetDays(){ dayCount = 0; }
