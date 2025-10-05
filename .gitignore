@@ -61,3 +61,7 @@ Thumbs.db
 *.xcworkspace
 *.xcuserstate
 *.xcuserdata/
+.vs/
+.vsconfig
+*.csproj
+*.sln
