@@ -6,14 +6,16 @@ public class Crisis
     public string message;
     public string correctSolution;
     public string nasaDataReference;
-    public Sprite crisisImage; // Add this line
-    
-    public Crisis(string t, string m, string sol, string nasaRef, Sprite img = null)
+    public Sprite crisisImage;
+    public string region;
+
+    public Crisis(string t, string m, string sol, string nasaRef, Sprite img = null, string reg = "")
     {
         type = t;
         message = m;
         correctSolution = sol;
         nasaDataReference = nasaRef;
-        crisisImage = img; // Add this line
+        crisisImage = img;
+        region = reg;
     }
 }
