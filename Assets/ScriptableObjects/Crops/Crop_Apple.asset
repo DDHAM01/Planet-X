@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f406cbcdb13d440b9a8854f17966fe, type: 3}
   m_Name: Crop_Apple
   m_EditorClassIdentifier: Assembly-CSharp::CropDef
-  cropName: 
+  cropName: Apple
   description: 
-  emptySprite: {fileID: 0}
-  seedSprite: {fileID: 0}
-  growingSprite: {fileID: 0}
-  matureSprite: {fileID: 0}
-  deadSprite: {fileID: 0}
+  emptySprite: {fileID: -4178046375966092550, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
+  seedSprite: {fileID: -2137975677, guid: 081c9f34707bb9b4cbbe2ae230aac7d7, type: 3}
+  growingSprite: {fileID: 137218536, guid: 1c7f502d38a83d143a1a6ea0937584e3, type: 3}
+  matureSprite: {fileID: 310823781541857843, guid: 493a5a6f0e8214282a3636e350ddbba9, type: 3}
+  deadSprite: {fileID: -7791058245329149119, guid: 493a5a6f0e8214282a3636e350ddbba9, type: 3}
   baseWaterNeed: 0.35
   daysToMature: 20
   growthVsMoisture:
